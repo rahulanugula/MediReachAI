@@ -1,0 +1,10 @@
+Frontend/node_modules/
+Frontend/dist/
+Backend/target/
+AI/venv/
+AI/__pycache__/
+.runlogs/
+.vscode/
+*.log
+*.pyc
+*.class

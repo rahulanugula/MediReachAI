@@ -1,0 +1,46 @@
+/* MediReach AI - Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Focus ring for accessibility */
+*:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+/* Table row transitions */
+tbody tr {
+  transition: background 0.15s ease;
+}
+
+/* Button base */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Input base */
+input,
+select,
+textarea {
+  font-family: inherit;
+}
