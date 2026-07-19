@@ -1,0 +1,8 @@
+# Railway Monorepo Configuration
+# Each service in Railway dashboard MUST have its Root Directory set:
+#   - Backend service  → Root Directory: /Backend
+#   - AI service       → Root Directory: /AI
+#   - Frontend service → Root Directory: /Frontend
+#
+# This root railway.toml is intentionally minimal.
+# Individual service configs are in their respective subdirectories.
